@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import ProjectManagement from "./components/ProjectManagement";
 
 const App = () => {
   return (
@@ -7,7 +8,7 @@ const App = () => {
       <Navbar />
       <main className="p-4">
         <Hero />
-        <div>hello world</div>
+        <ProjectManagement />
       </main>
     </div>
   );
