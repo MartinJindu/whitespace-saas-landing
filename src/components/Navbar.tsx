@@ -12,7 +12,7 @@ const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   return (
-    <nav className="w-full h-16 bg-transparent p-4">
+    <nav className="max-w-7xl mx-auto h-16 bg-transparent p-4">
       <div className="w-full h-full flex justify-between items-center gap-3">
         {/* Logo */}
         <div className="flex space-x-2 items-center justify-center">

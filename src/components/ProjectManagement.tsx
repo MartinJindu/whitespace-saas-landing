@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 const ProjectManagement = () => {
   return (
-    <div className="w-full min-h-screen space-y-16">
+    <div className="max-w-7xl px-4 mx-auto min-h-screen space-y-16">
       {/* Row 1 */}
       <div className="flex flex-col md:flex-row items-center justify-between">
         <div className="flex flex-col w-full space-y-4 max-sm:items-center">

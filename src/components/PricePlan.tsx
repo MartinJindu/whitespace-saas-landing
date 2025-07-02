@@ -52,7 +52,7 @@ const PricePlan = () => {
   ];
 
   return (
-    <section className="w-full min-h-screen space-y-5 mt-28 px-4 mb-14">
+    <section className="max-w-7xl mx-auto min-h-screen space-y-5 mt-28 px-4 mb-14">
       <div className="flex flex-col items-center">
         <h1 className="relative text-4xl sm:text-5xl lg:text-6xl max-sm:text-center font-bold text-black leading-tight z-10 mb-4 sm:mb-8">
           Choose{" "}
