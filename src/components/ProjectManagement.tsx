@@ -34,10 +34,10 @@ const ProjectManagement = () => {
         <div className="w-full flex justify-center mt-10 md:mt-0">
           <img
             src="/project.png"
-            alt="hero-image"
+            alt="project-image"
             height={2000}
             width={2000}
-            className="h-[60vh] w-full max-w-lg object-contain"
+            className="h-[40vh] md:h-[60vh]  w-full max-w-lg object-contain"
           />
         </div>
       </div>
@@ -78,14 +78,14 @@ const ProjectManagement = () => {
             alt="work-img"
             width={583}
             height={543}
-            className="h-[60vh] w-full max-w-lg object-contain"
+            className="h-[40vh] md:h-[60vh]  w-full max-w-lg object-contain"
           />
         </div>
       </div>
 
       {/* Row 3 */}
       <div className="flex flex-col md:flex-row items-center justify-between">
-        <div className="flex flex-col w-full space-y-4 max-sm:items-center mt-10 md:mt-0">
+        <div className="flex flex-col w-full space-y-4 max-sm:items-center  md:mt-0">
           <div className="relative mb-5">
             <h1 className="relative text-4xl sm:text-5xl lg:text-6xl max-sm:text-center font-bold text-black leading-tight z-10">
               Customize it to
@@ -120,7 +120,7 @@ const ProjectManagement = () => {
             alt="customize-image"
             height={2000}
             width={2000}
-            className="h-[60vh] w-full max-w-lg object-contain"
+            className="h-[40vh] md:h-[60vh] w-full max-w-lg object-contain"
           />
         </div>
       </div>
