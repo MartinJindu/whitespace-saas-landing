@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import PricePlan from "./components/PricePlan";
 import ProjectManagement from "./components/ProjectManagement";
 import Sponsor from "./components/Sponsor";
+import Testimonial from "./components/Testimonial";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Banner />
         <Sponsor />
         <Banner2 />
+        <Testimonial />
       </main>
     </div>
   );
