@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div className="bg-white">
       <Navbar />
-      <main>
+      <main className="mt-16">
         <Hero />
         <ProjectManagement />
         <PricePlan />

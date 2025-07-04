@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { RiArrowDropDownLine } from "react-icons/ri";
-import { Button } from "./ui/button";
+import Button from "./ui/button";
 import { FaArrowRight } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
 
@@ -12,7 +12,7 @@ const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   return (
-    <nav className="max-w-7xl mx-auto h-16 bg-transparent p-4">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white max-w-7xl mx-auto h-16 p-4">
       <div className="w-full h-full flex justify-between items-center gap-3">
         {/* Logo */}
         <div className="flex space-x-2 items-center justify-center">

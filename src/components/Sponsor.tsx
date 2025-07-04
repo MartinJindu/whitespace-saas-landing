@@ -1,5 +1,5 @@
 import { FaArrowRight } from "react-icons/fa";
-import { Button } from "./ui/button";
+import Button from "./ui/button";
 
 const Sponsor = () => {
   const sponsorImg = [

@@ -6,7 +6,7 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { RiArrowDropDownLine } from "react-icons/ri";
-import { Button } from "./ui/button";
+import Button from "./ui/button";
 
 const Footer = () => {
   return (
