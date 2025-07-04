@@ -1,69 +1,60 @@
-# React + TypeScript + Vite
+# Whitespace SaaS Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+The **Whitespace SaaS Landing Page** is a responsive landing page I built using a design in **Figma**. This project showcases my ability to translate Figma designs into clean, pixel-perfect HTML using **React, TypeScript, and Vite**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It demonstrates my **frontend skills** in:
 
-## Expanding the ESLint configuration
+- Responsive design
+- Mobile-first development
+- Component-based architecture
+- Interactive navigation and UI behavior
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Live Preview
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+> _([Visit site here](https://whitespace-saas-landing.netlify.app/))_
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- **React**
+- **TypeScript**
+- **Vite**
+- **Tailwind CSS**
+
+## Screenshot
+
+<img src="/siteImg.png" alt="Whitespace SaaS Landing Page" />
+
+## Features
+
+- Fully responsive design
+- Fixed navbar with dropdowns and mobile menu
+- Clean and modern UI
+- Built with TypeScript for type safety
+
+## Why This Project?
+
+I built this landing page to demonstrate my **Figma to HTML workflow** and my ability to:
+
+- Translate design files into real-world code
+- Build SaaS-style landing pages that can be used in production
+- Create scalable, maintainable React components
+
+## Getting Started
+
+### Installation
+
+Clone the repository and install the dependencies.
+
+```bash
+git clone https://github.com/MartinJindu/whitespace-saas-landing.git
+cd whitespace-saas-landing
+npm install
+
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+```bash
+npm run dev
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
