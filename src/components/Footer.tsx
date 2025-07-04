@@ -64,7 +64,7 @@ const Footer = () => {
         <hr className="hidden md:flex border border-blue-800/30" />
 
         <div className="flex flex-col md:justify-between md:flex-row md:space-x-4 w-full mt-10 mb-10 ">
-          <div className="flex flex-col md:flex-row md:space-x-4 items-center">
+          <div className="flex flex-col max-sm:space-y-2 md:flex-row md:space-x-4 items-center">
             <div className="flex items-center gap-1">
               <FaGlobe />
               English
