@@ -1,11 +1,11 @@
 import { LiaCheckCircle } from "react-icons/lia";
-import { Button } from "./ui/button";
+import Button from "./ui/button";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
-// @ts-ignore
+// @ts-expect-error: import correct
 import "swiper/css";
-// @ts-ignore
+// @ts-expect-error: import correct
 import "swiper/css/pagination";
 
 const PricePlan = () => {

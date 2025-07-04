@@ -4,11 +4,11 @@ import { useRef, useEffect } from "react";
 import { FaStar, FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
-// @ts-ignore
+// @ts-expect-error: import correct
 import "swiper/css";
-// @ts-ignore
+// @ts-expect-error: import correct
 import "swiper/css/navigation";
-// @ts-ignore
+// @ts-expect-error: import correct
 import "swiper/css/pagination";
 
 const Testimonial = () => {
@@ -38,6 +38,7 @@ const Testimonial = () => {
 
   const prevRef = useRef(null);
   const nextRef = useRef(null);
+  // @ts-ignore
   const swiperRef = useRef<any>(null);
 
   useEffect(() => {
