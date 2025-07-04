@@ -78,14 +78,14 @@ const ProjectManagement = () => {
             alt="work-img"
             width={583}
             height={543}
-            className="h-[40vh] md:h-[60vh]  w-full max-w-lg object-contain"
+            className="h-[40vh] md:h-[50vh]  w-full max-w-lg object-contain"
           />
         </div>
       </div>
 
       {/* Row 3 */}
       <div className="flex flex-col md:flex-row items-center justify-between">
-        <div className="flex flex-col w-full space-y-4 max-sm:items-center  md:mt-0">
+        <div className="flex flex-col w-full space-y-4 max-sm:items-center ">
           <div className="relative mb-5">
             <h1 className="relative text-4xl sm:text-5xl lg:text-6xl max-sm:text-center font-bold text-black leading-tight z-10">
               Customize it to

@@ -1,5 +1,6 @@
 import Banner from "./components/Banner";
 import Banner2 from "./components/Banner2";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import PricePlan from "./components/PricePlan";
@@ -20,6 +21,7 @@ const App = () => {
         <Banner2 />
         <Testimonial />
       </main>
+      <Footer />
     </div>
   );
 };

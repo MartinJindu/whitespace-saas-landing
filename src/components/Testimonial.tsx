@@ -14,21 +14,21 @@ import "swiper/css/pagination";
 const Testimonial = () => {
   const testimonials = [
     {
-      img: "",
+      img: "/Avatar1.png",
       text: "If you haven’t tried whitespace yet, you need to give it a shot for your next event. It’s so easy and intuitive to get a new event setup and if you need any help their customer service is seriously amazing.",
       name: "Jessie Owner",
       company: "Founder, XYZ Company",
       starRating: 5,
     },
     {
-      img: "",
+      img: "/Avatar2.png",
       text: "Whitespace made everything so seamless. Their intuitive design and fast setup is a game changer!",
       name: "Alex Carter",
       company: "CEO, ABC Inc.",
       starRating: 4,
     },
     {
-      img: "",
+      img: "/Avatar3.png",
       text: "An amazing platform with top-notch support. I’m extremely satisfied with the service provided.",
       name: "Sophie Lee",
       company: "CTO, TechWorld",
@@ -90,25 +90,29 @@ const Testimonial = () => {
           {testimonials.map((testimonial, index) => (
             <SwiperSlide key={index}>
               <div
-                className={`flex flex-col p-6 space-y-4 shadow-md rounded-lg h-full mb-10 ${
+                className={`flex flex-col p-6 space-y-4 shadow-md rounded-sm h-full mb-10 ${
                   index > 0
                     ? "bg-blue-500 text-white"
                     : "bg-gray-100 text-black"
                 }`}
               >
-                <div className="mb-5 flex justify-center">
+                <div className="mb-5 flex">
                   {testimonial.img ? (
-                    <img src={testimonial.img} alt={testimonial.name} />
+                    <img
+                      src={testimonial.img}
+                      alt={testimonial.name}
+                      className="w-12 h-12 object-contain"
+                    />
                   ) : (
-                    <div className="w-16 h-16 bg-gray-300 rounded-full" />
+                    <div className="w-14 h-14 bg-gray-300 rounded-full" />
                   )}
                 </div>
 
-                <p className="text-sm text-center">{testimonial.text}</p>
+                <p className="text-sm">{testimonial.text}</p>
 
                 <div className="mt-5">
                   <div className="flex items-center justify-between">
-                    <p className="font-bold">{testimonial.name}</p>
+                    <p className="font-semibold">{testimonial.name}</p>
                     <div className="flex">
                       {[...Array(testimonial.starRating)].map((_, i) => (
                         <FaStar key={i} className="text-yellow-400 mr-1" />
