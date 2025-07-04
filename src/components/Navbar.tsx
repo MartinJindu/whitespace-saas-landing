@@ -36,10 +36,10 @@ const Navbar = () => {
         <div className="flex items-center gap-4">
           {/* Buttons (visible from md and above) */}
           <div className="hidden md:flex items-center gap-2">
-            <Button className="bg-[#FFE492] text-[#043873] text-xs rounded-sm">
+            <Button className="bg-[#FFE492] text-[#043873] hover:bg-yellow-300 text-xs rounded-sm">
               Login
             </Button>
-            <Button className="bg-[#4f9cf9] text-white text-xs rounded-sm flex items-center gap-1">
+            <Button className="bg-[#4f9cf9] hover:bg-blue-500 text-white text-xs rounded-sm flex items-center gap-1">
               Try Whitespace free <FaArrowRight size={16} />
             </Button>
           </div>
