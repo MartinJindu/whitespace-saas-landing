@@ -24,7 +24,7 @@ It demonstrates my **frontend skills** in:
 
 ## Screenshot
 
-<img src="/siteImg.png" alt="Whitespace SaaS Landing Page" />
+<img src="/public/siteImg.png" alt="Whitespace SaaS Landing Page" />
 
 ## Features
 
